@@ -7,3 +7,80 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  background-color:	#CFE0C3;
+  color: #1F363D;
+}
+
+h1, h2, h3 {
+  font-family: 'Carter One', cursive;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #1F363D;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #9EC1A3;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 5px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #70A9A1;
+}
+
+nav ul li a:hover {
+  color: #CFE0C3;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 40px 0 20px 0;
+}
+
+main p {
+  font-size: 1rem;
+}
+
+main {
+  padding: 15px;
+  text-align: center;
+  min-height: 300px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  height: 50px;
+  background-color: #1F363D;
+  color: #9EC1A3;
+}
