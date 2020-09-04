@@ -84,3 +84,53 @@ footer {
   background-color: #1F363D;
   color: #9EC1A3;
 }
+
+/************************************
+
+    MIN-WIDTH 600PX MEDIA QUERY
+
+************************************/
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	footer {
+		height: 100px;
+	}
+
+}
+
+
+/************************************
+
+    MIN-WIDTH 1200PX MEDIA QUERY
+
+************************************/
+
+@media (min-width: 1200px) {
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	h2 {
+		font-size: 2.75rem;
+	}
+
+	footer {
+		text-align: left;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	footer h3 {
+		padding-right: 50px;
+	}
+}
